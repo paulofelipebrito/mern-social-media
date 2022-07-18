@@ -16,6 +16,14 @@
     width: 1.5rem;
     height: 1.5rem;
 }
+.navIcons>img:hover{
+    cursor: pointer;
+}
+
+.navIcons>a>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
 
 
 .r-button{
