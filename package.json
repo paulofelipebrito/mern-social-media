@@ -2,7 +2,7 @@
   "name": "mern-social-media",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://mern-app-social-media.herokuapp.com/",
+  "proxy": "https://mern-app-social-media.herokuapp.com",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
     "@mantine/core": "^4.2.1",
