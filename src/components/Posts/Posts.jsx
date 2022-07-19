@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { getTimelinePosts } from "../../actions/PostsAction";
+import { getTimelinePosts } from "../../redux/actions/PostsAction";
 import Post from "../Post/Post";
 import { useSelector, useDispatch } from "react-redux";
 import "./Posts.css";
