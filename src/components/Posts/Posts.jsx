@@ -12,7 +12,7 @@ const Posts = () => {
   let { posts, loading } = useSelector((state) => state.postReducer);
   useEffect(() => {
     dispatch(getTimelinePosts(user._id));
-  }, []);
+  }, [dispatch,user]);
   if(!posts) return 'No Posts';
   if(params.id) posts = posts.filter((post)=> post.userId===params.id)
   return (
