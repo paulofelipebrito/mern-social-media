@@ -8,6 +8,7 @@ import Chat from "./pages/Chat/Chat";
 
 function App() {
   const user = useSelector((state) => state.authReducer.authData);
+  console.log(user)
   return (
     <div
       className="App"

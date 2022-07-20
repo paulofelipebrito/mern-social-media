@@ -15,6 +15,7 @@ const Posts = () => {
   }, [dispatch,user]);
   if(!posts) return 'No Posts';
   if(params.id) posts = posts.filter((post)=> post.userId===params.id)
+  
   return (
     <div className="Posts">
       {loading
