@@ -11,6 +11,8 @@ const ChatBox = ({ chat, currentUser, setSendMessage,  receivedMessage }) => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState("");
 
+  // console.log(userData)
+
   const handleChange = (newMessage)=> {
     setNewMessage(newMessage)
   }

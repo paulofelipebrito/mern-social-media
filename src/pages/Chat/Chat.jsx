@@ -23,6 +23,7 @@ const Chat = () => {
     const getChats = async () => {
       try {
         const { data } = await userChats(user._id);
+        console.log(data)
         setChats(data);
       } catch (error) {
         console.log(error);
